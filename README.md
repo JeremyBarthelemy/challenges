@@ -1,7 +1,8 @@
 # Trigram counter!
-This program will count the most common three word sequences in the text files you provide.
+This (C++) program will count the most common three word sequences in the text files you provide.
 
 ## How to run the program
+Note: I built and tested this in a Linux Red Hat environment.
 1. Compile the program: `g++ -o CodingChallenge main.cpp`
 2. Run the program with file paths: `./CodingChallenge texts/the-shining.txt texts/war-and-peace.txt`
 3. Or use stdin: `cat texts/*.txt | ./CodingChallenge`
