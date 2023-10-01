@@ -23,5 +23,6 @@ Or
 3. Maybe change it so there's a better way to run tests / a separate application, especially if you really wanted to
    analyze text in a text file called RunAllTests :)
 4. Do some more debugging to see why my numbers don't quite match up with what was in the challenge pdf!
+5. Experiment with fuzzing tests
 
 ## Known Bugs
