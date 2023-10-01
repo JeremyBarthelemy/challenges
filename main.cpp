@@ -133,6 +133,13 @@ void runAllTests()
         assert((result == std::vector<std::wstring>{L"sandwiches", L"he", L"said"}));
     }
 
+    // Contractions shouldn't be changed into two words (e.g., can't should not become can t).
+    {
+        std::wstring test = L"Can't won't don't!";
+        std::vector<std::wstring> result = consolidateSequences(test);
+        assert((result == std::vector<std::wstring>{L"cant", L"wont", L"dont"}));
+    }
+
     std::cout << "All tests passed!" << std::endl;
 }
 
