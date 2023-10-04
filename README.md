@@ -6,7 +6,9 @@ Note: I built and tested this in a Linux Red Hat environment.
 1. Compile the program: `g++ -o CodingChallenge main.cpp`
 2. Run the program with file paths: `./CodingChallenge texts/the-shining.txt texts/war-and-peace.txt`
 3. Or use stdin: `cat texts/*.txt | ./CodingChallenge`
-Or
+
+**OR**
+
 1. In the root directory of the project, create a directory titled "build": `mkdir build && cd build`
 2. Run `cmake ..` followed by `make` to build the executable.
 
